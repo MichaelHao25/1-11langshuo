@@ -1,0 +1,66 @@
+.abc1-11{
+	background: #6abec1;
+}
+
+.add-1-11-wrap{
+	text-align: center;
+	color: #fff;
+}
+.add-1-11-wrap h3{
+	padding: 10% 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.add-1-11-wrap h4{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.add-1-11-wrap .time{
+	padding: 3% 0;
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	color: #fff;
+}
+.add-1-11-wrap .time .text{
+	display: block;
+	width: 40px;
+	height: 40px;
+	color: #4f4db0;
+
+	font-size: 22px;
+}
+.add-1-11-wrap .time .day{
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 22px;
+	background: #41e0d1;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+
+.add-1-11-wrap p{
+	font-size: 12px;
+	color: #fff;
+	padding-top: 3%;
+}
+.add-1-11-wrap .resuit{
+	display: block;
+	padding: 0 2%;
+	width: 30%;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid #fff;
+	background: #6ec74f;
+	border-radius: 5px;
+	line-height: 40px;
+	margin: 30% auto 0;
+	display: none;
+}
+
+.add-1-11-wrap .resuit.active{
+	display: block;
+}
