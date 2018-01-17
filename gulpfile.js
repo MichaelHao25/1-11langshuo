@@ -95,13 +95,13 @@ gulp.task('css', function() {
     //     propList: ['*', '!border*'],
     // }),
         // wap
-    // pxtorem({
-    //     rootValue: 20,
-    //     replace: false,
-    //     unitPrecision: 5,
-    //     propList: ['*', '!border']
-    //     // propList需要进行pxtorem进行转换的元素“*”代表所有的
-    // }),
+    pxtorem({
+        rootValue: 20,
+        replace: false,
+        unitPrecision: 5,
+        propList: ['*', '!border']
+        // propList需要进行pxtorem进行转换的元素“*”代表所有的
+    }),
         // bootstrap
         // atImport,
         // mqpacker,
