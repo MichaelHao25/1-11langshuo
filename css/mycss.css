@@ -1,0 +1,47 @@
+
+.enumerate{margin-bottom: 55px;}
+.enumerate .left{float: left;width: 20%;height: 368px;overflow: hidden;margin-right: 17px;}
+.enumerate .left img{width: 100%;min-height: 100%}
+.enumerate .right{float: left;width: 78%;}
+.enumerate .right ul{margin-left: -2%;}
+.enumerate .right ul li{width: 23%;margin-left: 2%;float: left;margin-bottom: 28px;}
+.enumerate .right ul li a{width: 100%;height: 50px;line-height: 50px;text-align: center;display: block;font-size: 18px;color: #333;font-weight: bold;}
+.enumerate .right .pic{position: relative;width: 100%;height: 120px;background: #972483;text-align: center;line-height: 120px;}
+.enumerate .right .pic:before{content: "";position: absolute;z-index: 2; bottom: -1px;left: 0;width: 100%;height: 25px;background: url(../img/pic10.png) center bottom no-repeat;display: none;}
+.enumerate .right .pic img{vertical-align: middle;}
+.enumerate .right .pic em{position: absolute;top: -1px;left: 0;width: 100%;height: 100%; display: none;}
+.enumerate .right .pic em img{width: 100%;min-height: 100%;}
+.enumerate .right ul li:hover .pic:before{display: block;}
+.enumerate .right ul li:hover .pic em{display: block;}
+.enumerate .right ul li:hover a{background: #333;color: #fff;}
+
+.attest{width: 970px;box-shadow: 5px 5px #4f4c4c;margin: 0 auto 90px;}
+.attest h2{height: 50px;line-height: 50px;background: #972483;font-size: 18px;color: #fff;text-align: center;}
+.attest .box{width: 100%;display: table;background: #eee;padding-top: 50px;}
+.attest .box ul{}
+.attest .box ul li{width: 50%;text-align: center;float: left;font-size: 18px;color: #595959;margin-bottom: 40px;}
+.attest .box ul li img{width: 21px;height: 17px;vertical-align: middle;margin-right: 12px;}
+
+
+
+@media (max-width: 992px) {
+ 
+.enumerate .left{margin: 0 auto;text-align: center;}
+
+.enumerate .right{width: 80%;}
+.enumerate .right ul li{margin-bottom: 22px;}
+
+.attest{width: 96%;}
+}
+
+@media (max-width: 520px) {
+ 
+.enumerate .left{width: 100%;margin: 0 auto 20px;text-align: center;padding: 0;}
+
+.enumerate .right{width: 100%;}
+.enumerate .right ul{margin-left: 0;}
+.enumerate .right ul li{width: 48%;margin-bottom: 22px;margin-left: 0;}
+.enumerate .right ul li:nth-child(even){float: right;}
+.attest{width: 92.5%;}
+.attest .box ul li{width: 100%;}
+}
